@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Players>
+    <Player>
+        <name>Ilya</name>
+        <position>RaumDeuter</position>
+        <strikingLeg>Right</strikingLeg>
+        <club>
+            <name>Bayern Munich</name>
+            <couch>Thomas Muller</couch>
+            <country>Germany</country>
+            <league>
+                <name>BundesLiga</name>
+                <teamsCount>22</teamsCount>
+                <sponsor>Mercedes</sponsor>
+                <history>
+                    <year>1921</year>
+                    <firstChampion>Koln</firstChampion>
+                </history>
+            </league>
+        </club>
+    </Player>
+
+    <Player>
+        <name>Kirill</name>
+        <position>Defender</position>
+        <strikingLeg>Right</strikingLeg>
+        <club>
+            <name>Nizny Novgorod</name>
+            <couch>Ilya Gushchin</couch>
+            <country>Russia</country>
+            <league>
+                <name>Russian region League</name>
+                <teamsCount>11</teamsCount>
+                <sponsor>Auto Zavod</sponsor>
+                <history>
+                    <year>1956</year>
+                    <firstChampion>Balachna</firstChampion>
+                </history>
+            </league>
+        </club>
+    </Player>
+
+    <Player>
+        <name>Roman</name>
+        <position>Kicker</position>
+        <strikingLeg>Right</strikingLeg>
+        <club>
+            <name>Nizny Novgorod</name>
+            <couch> null</couch>
+            <country>Russia</country>
+            <league>
+                <name>Russian region League</name>
+                <teamsCount>7</teamsCount>
+                <sponsor>Self</sponsor>
+                <history>
+                    <year>2001</year>
+                    <firstChampion>Sormovo Team</firstChampion>
+                </history>
+            </league>
+        </club>
+    </Player>
+
+
+    <Player>
+        <name>Vladislav</name>
+        <position>Middle</position>
+        <strikingLeg>Both</strikingLeg>
+        <club>
+            <name>null</name>
+            <couch>Steve Jobs</couch>
+            <country>Russia</country>
+            <league>
+                <name>Moscow League</name>
+                <teamsCount>28</teamsCount>
+                <sponsor>Sobyanin</sponsor>
+                <history>
+                    <year>1995</year>
+                    <firstChampion>Chertanovo</firstChampion>
+                </history>
+            </league>
+        </club>
+    </Player>
+
+
+</Players>
