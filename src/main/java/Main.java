@@ -23,14 +23,19 @@ public class Main {
             println("playersWithRightStrikingLeg");
             List<String> playersWithRightStrikingLeg = getPlayersWithStrikingLeg(document, xPath, "Right");
             playersWithRightStrikingLeg.forEach(Main::println);
+            println("");
 
-            println("getPlayersWithLeague");
+            println("getPlayersWith Russian region League");
             List<String> list3 = getPlayersWithLeague(document, xPath, "Russian region League");
             list3.forEach(Main::println);
+            println("");
 
-            println("getLeaguesWithTeamCount");
+
+            println("getLeaguesWithTeamCount = 5");
             List<String> list4 = getLeaguesWithTeamCount(document, xPath, 5);
             list4.forEach(Main::println);
+            println("");
+
 
 
         } catch (Exception e) {
@@ -94,7 +99,7 @@ public class Main {
         List<String> list = new ArrayList<>();
         try {
             XPathExpression xPathExpression = xpath.compile(
-                    "/Players/Player/club/league[name='" + leagueName + "']/sponsor/text()"
+                    "/Players/Player[club/league/name='" + leagueName + "']/name/text()"
             );
             NodeList nodeList = (NodeList) xPathExpression.evaluate(doc, XPathConstants.NODESET);
             for (int i = 0; i < nodeList.getLength(); i++) {
